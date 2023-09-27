@@ -1,6 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.code-font {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container-wrapper {}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
 
 
-/*------------------------------------------------------------- Navbar */
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #eec802;
+    border-color: #eec802;
+}
+
+.callout-container {
+    height: 100vh;
+    background: url(../images/pexels-markus-spiske-1089438.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.features-container {}
+
+/* Page headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+.quotes-container {}
+
+
+/*Block Dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--orange {
+    background-color: #f05f40;
+}
+
+.block-divider--green {
+    background-color: #2dca42;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+/* Content containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Nav bar */
 
 .navalert-container {
     position: absolute;
@@ -15,7 +113,7 @@
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .navbar .navbar-toggler {
@@ -28,4 +126,117 @@
 
 .navbar .navbar-nav a {
     font-weight: bold;
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    margin-bottom: 25%;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #a7a7a7;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #af3b21;
+    border-color: #af3b21;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    color: white;
+    background-color: #bf4025;
+    border-color: #bf4025;
+}
+
+.pill-btn--red {
+    color: white;
+    background-color: #af3b21;
+    border-color: #af3b21;
+}
+
+.pill-btn--red:hover,
+.pill-btn--red:active,
+.pill-btn--red:focus,
+.pill-btn--red:active:focus {
+    color: white;
+    background-color: #bf4025;
+    border-color: #bf4025;
+}
+
+.btn--green {
+    color: white;
+    background-color: #189f32;
+    border-color: #15dd3c;
+}
+
+.btn--green:hover,
+.btn--green:active,
+.btn--green:focus,
+.btn--green:active:focus {
+    color: white;
+    background-color: #15dd3c;
+    border-color: #189f32;
+}
+
+.pill-btn--blue {
+    color: white;
+    background-color: rgb(33 147 211 / 75%);
+    border-color: #39e3f7;
+}
+
+.pill-btn--blue:hover,
+.pill-btn--blue:active,
+.pill-btn--blue:focus,
+.pill-btn--blue:active:focus {
+    color: white;
+    background-color: rgb(33 147 211 / 75%);
+    border-color: #39e3f7;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+
 }

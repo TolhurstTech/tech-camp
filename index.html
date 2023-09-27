@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,12 +20,13 @@
 </head>
 
 <body>
-    <header>
-        <!-- Nav bar -->
+
+    <div class="container-fluid navalert-container">
+
         <nav class="navbar navbar-dark navbar-expand-sm">
 
             <a href="/" class="navbar-brand">
-                Whiskey Drop
+                Learn 2 Code
             </a>
 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#myNavbar"
@@ -41,21 +43,21 @@
                     </li>
 
                     <li class="nav-item mr-2">
-                        <a class="nav-link" href="/about">
-                            About
+                        <a class="nav-link" href="/contact">
+                            Contact
                         </a>
                     </li>
 
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropwdown-toggle" id="myNavbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Whiskeys
+                            Courses
                         </a>
                         <div class="dropdown-menu" aria-labelledby="myNavbarDropdown">
-                            <a href="#" class="dropdown-item">Irish</a>
-                            <a href="#" class="dropdown-item">Scotch</a>
-                            <a href="#" class="dropdown-item">American</a>
-                            <a href="#" class="dropdown-item">Japanese</a>
+                            <a href="#" class="dropdown-item">Web Develpoment Fundamentals</a>
+                            <a href="#" class="dropdown-item">Database Systems & Design</a>
+                            <a href="#" class="dropdown-item">Advanced PHP Bootcamp</a>
+                            <a href="#" class="dropdown-item">Everything Object Oriented</a>
                         </div>
                     </li>
 
@@ -70,18 +72,223 @@
             <div class="d-none d-lg-block">
 
                 <p class="navbar-text my-auto mr-2">
-                    <i>Great whiskey delivered to your door!</i>
+                    <i>Enter The Matrix</i>
                     <a href="/login" class="ml-2 btn btn--cta btn--red">
-                        Sign In / Sign-Up!
+                        Log In / Sign-Up
                     </a>
                 </p>
 
             </div>
         </nav>
-    </header>
+    </div>
 
-    <section></section>
+    <div class="container-fluid callout-container">
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="row ">
+            <div class="col-12">
+                <section class="callout jumbotron mt-3 text-center">
+                    <h1 class="jumbotron-header code-font">
+                        Become part of the Matrix...
+                    </h1>
+                    <!--<hr class="block-divider block-divider--green">-->
+                    <p class="lead">
+                        Learn to code with us today.
 
-    <footer></footer>
+                    </p>
+                    <div class="row">
+                        <div class="col-6">
+                            <button class="btn btn-lg btn--cta pill-btn--red" data-toggle="modal" data-target="#signUpModal">
+                                Courses
+                            </button>
+                        </div>
+
+                        <div class="col-6">
+                            <button class="btn btn-lg btn--cta pill-btn--blue" data-toggle="modal"
+                                data-target="#signUpModal">
+                                Leave
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="container-wrapper">
+        <div class="container quotes-container content-container">
+            <section class="quotes">
+
+                <div class="row">
+
+                    <div class="col-12 page-header">
+
+                        <h2 class="text-uppercase">
+                            Quotes:
+                        </h2>
+                        <hr class="block-divider block-divider--short">
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="media">
+
+                            <div class="d-none d-sm-block">
+                                <img src="./images/girl-image.png" class="rounded-circle mr-3" height="100" width="100">
+                            </div>
+
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+
+                                    <p>I've been introduced to more than 10 great whiskeys I never knew about.</p>
+
+                                    <p>- Jane Doe</p>
+
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img src="./images/guy-image.png" class="rounded-circle mr-3" height="100" width="100">
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+
+                                    <p>I haven't been sober for months!</p>
+
+                                    <p>- Jon Doe</p>
+
+                                </blockquote>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    <div class="container-wrapper container-wrapper--red">
+        <div class="container features-container content-container">
+            <section class="features">
+
+                <div class="row">
+                    <div class="col-12 page-header">
+
+                        <h2 class="text-uppercase">Features:</h2>
+                        <hr class="block-divider block-divider--short block-divider--white">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+
+                        <div class="feature">
+
+                            <h3><i class="fa-solid fa-gift d-none d-sm-block"></i> Feature 1</h3>
+
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident est libero, pariatur
+                                atque
+                                quaerat laudantium blanditiis quisquam labore porro iste.
+                            </p>
+
+                            <p>
+                                <a href="" class="btn btn-sm btn-light">Read More</a>
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+
+                            <h3><i class="fa-solid fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam eius facilis eligendi
+                                amet
+                                ipsum
+                                animi repudiandae illum architecto praesentium dolorum.
+                            </p>
+
+                            <p>
+                                <a href="" class="btn btn-sm btn-light">Read More</a>
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 d-md-none d-lg-block col-lg-4">
+                        <div class="feature">
+
+                            <h3><i class="fa-solid fa-circle-xmark d-none d-sm-block"></i> Feature 3</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quasi doloribus corrupti
+                                placeat
+                                doloremque quod sit ad architecto facere impedit!
+                            </p>
+
+                            <p>
+                                <a href="" class="btn btn-sm btn-light">Read More</a>
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" id="signUpModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up For Whiskey Drop</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Please enter password">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword2">Repeat Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword2"
+                                placeholder="Please repeat your password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
