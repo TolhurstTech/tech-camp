@@ -136,12 +136,12 @@ body {
 
 .jumbotron-header {
     color: white;
-    margin-bottom: 25%;
+    margin-bottom: 10%;
 }
 
 .jumbotron .lead {
-    margin: 25px 0;
-    color: #a7a7a7;
+    margin: 10% 0;
+    color: #c4c4c4;
 }
 
 .jumbotron small {
@@ -176,8 +176,8 @@ body {
 
 .pill-btn--red {
     color: white;
-    background-color: #af3b21;
-    border-color: #af3b21;
+    background-color: rgb(255 99 63 / 63%);
+    border-color: #ff6707;
 }
 
 .pill-btn--red:hover,
@@ -185,8 +185,8 @@ body {
 .pill-btn--red:focus,
 .pill-btn--red:active:focus {
     color: white;
-    background-color: #bf4025;
-    border-color: #bf4025;
+    background-color: rgb(255 99 63 / 63%);
+    border-color: #ff6707;
 }
 
 .btn--green {
