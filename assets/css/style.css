@@ -500,8 +500,15 @@ body {
     }
 }
 
-
+/* Courses Page */
 
 .courses-content-container {
     background-color: rgba(0, 0, 0);
+}
+
+.courses-content-container .card {
+    border: 1px solid #007a00;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:#007a00;
+    font-weight: 500;
 }
