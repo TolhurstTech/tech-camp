@@ -258,6 +258,7 @@ body {
     background-color: black;
    /* overflow: hidden;*/
     font-family: monospace;
+    width:80%;
 }
 /*
 :root {
